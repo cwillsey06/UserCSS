@@ -6,14 +6,13 @@
 @supportURL     https://github.com/scrawlmin/UserCSS/issues
 @updateURL      https://raw.githubusercontent.com/scrawlmin/UserCSS/master/noscrollbar.user.css
 
-@version        1.0.0
+@version        1.0.1
 @license        MIT
 @description    No scrollbar!
 @author         distantbound
 
-@preprocessor stylus
 ==/UserStyle== */
 
-@-moz-document url-prefix("*") {
+@-moz-document url-prefix("") {
     html::-webkit-scrollbar{display: none}
 }
