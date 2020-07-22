@@ -11,6 +11,7 @@
 @description    No scrollbar!
 @author         distantbound
 
+@preprocessor stylus
 ==/UserStyle== */
 
 @-moz-document url-prefix("*") {
