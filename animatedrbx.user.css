@@ -1,0 +1,289 @@
+/* ==UserStyle==
+@name           animatedrbx
+@namespace      distantbound
+
+@homepageURL    https://github.com/scrawlmin/UserCSS
+@supportURL     https://github.com/scrawlmin/UserCSS/issues
+@updateURL      https://raw.githubusercontent.com/scrawlmin/UserCSS/master/animatedrbx.user.css
+
+@version        1.0.0
+@license        MIT
+@description    A dark theme for Roblox with customizable colors.
+@author         distantbound
+
+@preprocessor stylus
+
+@var color rbx-bg "Primary Background Color" #080B21
+@var color rbx-fg "Primary Foreground Color" #1F223D
+@var color rbx-accent "Accent Color" #E74856
+==/UserStyle== */
+
+@-moz-document domain("roblox.com") {
+:root {
+    --rbx-bg: rbx-bg;
+    --rbx-fg: rbx-fg;
+    --rbx-accent: rbx-accent;
+}
+
+.chat-main {
+    box-shadow: none;
+}
+.dark-theme{
+    background-color:  var(--rbx-bg);
+    border-color: transparent;
+    animation: fadein 1.5s;
+}
+
+.dark-theme .content {
+    background-color: var(--rbx-fg) !important;
+}
+
+.dark-theme .rbx-header{
+    background-color:  var(--rbx-fg) !important;
+    border: none;
+}
+.dark-theme .rbx-header #navbar-universal-search{
+    background: none;
+}
+
+.dark-theme .container-footer{
+    background-color: var(--rbx-bg) !important;
+}
+
+.dark-theme .content{
+    background-color: var(--rbx-bg) !important;
+}
+
+.dark-theme .section-content{
+    background-color: var(--rbx-fg) !important;
+    border-radius: 8px;
+}
+
+.dark-theme .stack .stack-list .stack-row {
+    background-color:  var(--rbx-fg) !important;
+}
+
+.dark-theme .stack .stack-list .stack-row {
+    background-color:  var(--rbx-fg) !important;
+}
+
+.dark-theme .rbx-tabs-horizontal .nav-tabs .rbx-tab-heading {
+    background-color:  var(--rbx-fg) !important;
+}
+
+.dark-theme .chat-main .chat-header {
+    background-color:  var(--rbx-fg) !important;
+
+}
+
+.dark-theme .chat-main .chat-body {
+    background-color: var(--rbx-bg) !important;
+    border-width: medium !important;
+    border-color:  var(--rbx-fg) !important;
+}
+
+.dark-theme .dialog-container .dialog-input-container .dialog-input {
+    background-color: var(--rbx-bg) !important;
+}
+
+.dark-theme .input-field {
+    background: none !important;
+    border: none;
+}
+.dark-theme .rbx-header .input-field  #navbar-universal-search{
+    border: none !important;
+}
+
+.dark-theme .chat-windows-header .chat-header-label span {
+    float: left;
+}
+.dark-theme .notification, .dark-theme .notification-blue, .dark-theme .notification-red {
+    background-color:  var(--rbx-fg);
+    text-align: right;
+    color: #fff;
+}
+
+.dark-theme .dialog-container .dialog-header{
+    background-color:  var(--rbx-fg) !important;
+}
+.dark-theme .dialog-container .dialog-body {
+    background-color: var(--rbx-bg) !important;
+}
+.dark-theme .dialogs .dialog-container .dialog-message-container .indicated-message-bubble {
+    background-color: #000;
+    color: #fff;
+}
+.dark-theme .dialog-container {
+    background-color: var(--rbx-fg);
+    color: #000;
+}
+.rbx-left-col li{
+    overflow: visible;
+}
+.dark-theme .dropdown-menu {
+    background-color: var(--rbx-bg) !important;
+    color: #fff;
+}
+
+.dark-theme .rbx-divider {
+    background-color: transparent;
+}
+.btr-profile-favorites .game-card-container {
+    border: none;
+}
+.btr-profile .btr-games-list .btr-game-icon {
+    border: none;
+}
+.dark-theme .avatar-card-container {
+    background-color: #1F223D !important;
+}
+.btr-profile .btr-pager-holder {
+    margin-top: 1.5em;
+}
+.dark-theme .container-empty, .dark-theme .section-content-off {
+    background-color: #0000
+}
+.dark-theme.btr-profile .btr-games-list .btr-game-button {
+    background-color: var(--rbx-bg) !important;
+    border-color: var(--rbx-bg) !important;
+}
+.popover.bottom.people-info-card-container.bottom>.arrow {
+    display: none !important;
+}
+.dark-theme .rbx-tabs-vertical .category-tabs .menu-vertical {
+    background-color: var(--rbx-bg) !important;
+    color: #fff;
+}
+.dark-theme .menu-vertical .menu-option .menu-secondary {
+    background-color: var(--rbx-bg) !important;
+    color: #fff;
+}
+.dark-theme .btn-growth-md {
+    background-color: var(--rbx-accent) !important;
+    border-color: var(--rbx-accent) !important;
+    color: #fff;
+    border-radius: 8px;
+}
+.dark-theme .btn-primary-lg {
+    background-color: var(--rbx-accent) !important;
+    border-color: var(--rbx-accent) !important;
+    color: #fff !important;
+    border-radius: 8px;
+}
+
+.home-container {
+    margin: auto;
+    float: none;
+}
+
+.btn-common-play-game-lg, a.btn-common-play-game-lg {
+    background-color: var(--rbx-accent) !important;
+    border: 1px solid var(--rbx-accent) !important;
+}
+
+#navigation{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}
+
+/*
+
+    Code section #2
+
+*/
+
+@keyframes colorchange {
+    0%   {background: #f00; border-color: #f00;}
+    12.5%  {background: #ff7f00; border-color: #ff7f00;}
+    37.5%  {background: #ff0; border-color: #ff0;}
+    50%  {background: #0f0; border-color: #0f0;}
+    62.5% {background: #00f; border-color: #00f;}
+    75% {background: #7f00ff; border-color: #7f00ff;}
+    87.5% {background: #ff00f7; border-color: #7f00f7;}
+    100% {background: #f00; border-color: #f00;}
+}
+
+@-webkit-keyframes colorchange {
+    0%   {background: #f00; border-color: #f00;}
+    12.5%  {background: #ff7f00; border-color: #ff7f00;}
+    37.5%  {background: #ff0; border-color: #ff0;}
+    50%  {background: #0f0; border-color: #0f0;}
+    62.5% {background: #00f; border-color: #00f;}
+    75% {background: #7f00ff; border-color: #7f00ff;}
+    87.5% {background: #ff00f7; border-color: #7f00f7;}
+    100% {background: #f00; border-color: #f00;}
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Chroma styled buttons, comment / uncomment to toggle */
+
+.dark-theme .btn-growth-md {
+    animation-name: colorchange;
+    animation-duration: 20s !important;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.dark-theme .btn-primary-lg {
+    animation-name: colorchange;
+    animation-duration: 20s !important;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.btn-common-play-game-lg, a.btn-common-play-game-lg {
+    animation-name: colorchange;
+    animation-duration: 20s !important;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/* END OF CHROMA STYLE */
+
+.chat-container.collapsed .chat-main, .chat-main, .dialog-container, .dialog-container.collapsed{
+    transition: all 0.5s;
+}
+
+.rbx-header .rbx-navbar li .nav-menu-title:hover {
+    border-color: white !important;
+    transition: all 0.25s;
+}
+
+.nav-username {
+    transition: filter .5s;
+    filter: opacity(25%)
+}
+.nav-username:hover {
+    transition: filter .5s;
+    filter: opacity(100%)
+}
+
+.simplebar-content ul li {
+    transition: all 0.5s;
+    width: 30px;
+    opacity: .25;
+    overflow: hidden;
+    text-overflow: clip;
+    margin-bottom: 15px !important;
+    border: none;
+}
+
+.simplebar-content ul li:hover {
+    animation-name: transparency;
+    animation-duration: 0.25s !important;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+    
+}
+.simplebar-content ul li:hover {
+    transition-delay: 0.5s !important;
+    animation-name: expand;
+    animation-duration: 0.75s;
+    animation-timing-function: ease-in-out;
+    width: 130px !important;
+}
+
+}
