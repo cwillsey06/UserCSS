@@ -2,9 +2,9 @@
 A growing collection of UserCSS styles I've made, make sure you have [Stylus](https://add0n.com/stylus.html) installed if you wish to use these styles.
 
 Jump to style:
-- [animatedrbx](https://github.com/Devo7v/UserCSS/#animatedrbx)
-- [noscrollbar](https://github.com/Devo7v/UserCSS/#noscrollbar)
-- [Dark Typist](https://github.com/Devo7v/UserCSS/#dark-typist)
+- [animatedrbx](https://github.com/scrawlmin/UserCSS/#animatedrbx)
+- [noscrollbar](https://github.com/scrawlmin/UserCSS/#noscrollbar)
+- [Dark Typist](https://github.com/scrawlmin/UserCSS/#dark-typist)
 
 ## animatedrbx
 Animated roblox.com, changes sidebar elements and smoothly transistions other aspects.
