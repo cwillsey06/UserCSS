@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           noscrollbar
+@namespace      distantbound
+
+@homepageURL    https://github.com/scrawlmin/UserCSS
+@supportURL     https://github.com/scrawlmin/UserCSS/issues
+@updateURL      https://raw.githubusercontent.com/scrawlmin/UserCSS/master/noscrollbar.user.css
+
+@version        1.0.0
+@license        MIT
+@description    No scrollbar!
+@author         distantbound
+
+==/UserStyle== */
+
+@-moz-document url-prefix("*") {
+    html::-webkit-scrollbar{display: none}
+}
