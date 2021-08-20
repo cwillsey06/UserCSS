@@ -1,18 +1,18 @@
 /* ==UserStyle==
 @name           noscrollbar
-@namespace      distantbound
+@namespace      mao06u
 
-@homepageURL    https://github.com/scrawlmin/UserCSS
-@supportURL     https://github.com/scrawlmin/UserCSS/issues
-@updateURL      https://raw.githubusercontent.com/scrawlmin/UserCSS/master/noscrollbar.user.css
+@homepageURL    https://github.com/mao06u/UserCSS
+@supportURL     https://github.com/mao06u/UserCSS/issues
+@updateURL      https://raw.githubusercontent.com/mao06u/UserCSS/master/noscrollbar.user.css
 
-@version        1.0.1
+@version        1.0.2
 @license        MIT
 @description    No scrollbar!
-@author         distantbound
+@author         mao06u
 
 ==/UserStyle== */
 
-@-moz-document url-prefix("") {
+@-moz-document regexp(".+") {
     html::-webkit-scrollbar{display: none}
 }
